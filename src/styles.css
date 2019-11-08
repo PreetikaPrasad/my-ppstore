@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+nav.navbar.navbar-expand-lg.navbar-dark {
+    background-color: darkblue;
+}
+button{color:white;
+    background-color:green;
+
+}
+.row{
+    margin-top: 20px;
+}
+.card-img-top{
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+    background-color: darkblue;
+    color:white;
+}
