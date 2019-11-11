@@ -46,13 +46,14 @@ export class AppComponent {
   /*title = 'ppstore';*/
   // productdescription with objects
   products: Array<Product> = [{
+    id: 1,
     name: 'bag',
   description: 'quality bags',
   image: './../assets/images/bag.jpg',
   imageAlt: 'Buy Now',
   isAvailable: true,
   price: 2000, },
-  {
+  { id:2,
     name: 'storage box',
   description: 'quality boxs',
   image: './../assets/images/storage.jpg',
@@ -60,20 +61,21 @@ export class AppComponent {
   isAvailable: true,
   price: 200, },
   {
+    id:3,
     name: 'wallet',
   description: 'wallets box',
   image: './../assets/images/wallet.jpeg',
   imageAlt: 'Buy Now',
   isAvailable: true,
   price: 250, },
-  {
+  {  id:4,
     name: 'watch',
   description: 'watches',
   image: './../assets/images/watch.jpg',
   imageAlt: 'Buy Now',
   isAvailable: true,
   price: 600, },
-  {
+  {  id:5,
     name: 'box',
   description: 'boxes',
   image: './../assets/images/box.jpg',
